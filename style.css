@@ -1,0 +1,35 @@
+:root{
+  --bg:#0b0f14; --card:rgba(255,255,255,.06); --stroke:rgba(255,255,255,.08);
+  --text:#e6edf3; --muted:#9fb0c3; --accent:#7dd3fc; --accent2:#22d3ee;
+  --grad: linear-gradient(135deg, var(--accent), var(--accent2));
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 800px at 10% -10%,#13202F,transparent),var(--bg);color:var(--text);line-height:1.55}
+.wrap{max-width:1100px;margin:auto;padding:20px}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--stroke)}
+.logo{font-weight:800;letter-spacing:.5px} .logo span{color:var(--accent2)}
+.links a{color:var(--muted);text-decoration:none;margin-left:18px}
+.hero{padding:56px 0}
+.hero h1{font-size: clamp(28px, 6vw, 52px);margin:0 0 8px}
+.grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{color:var(--accent);font-weight:600;margin:0 0 8px}
+.sub{color:var(--muted);max-width:70ch}
+.cta{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 16px;border-radius:12px;border:1px solid var(--stroke);text-decoration:none;color:var(--text);backdrop-filter:blur(6px)}
+.btn.primary{background:var(--grad);color:#001017;border:0;font-weight:700}
+.btn.ghost{background:transparent}
+.btn.small{padding:8px 12px;border-radius:10px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:16px 0 48px}
+.card{background:var(--card);border:1px solid var(--stroke);border-radius:16px;padding:18px}
+.card h3{margin:0 0 6px} .card p{color:var(--muted)}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 12px}
+.meta span{font-size:12px;border:1px solid var(--stroke);padding:4px 8px;border-radius:999px;color:var(--muted)}
+.actions{display:flex;gap:8px}
+.panel{background:linear-gradient(transparent,rgba(255,255,255,.03));border:1px solid var(--stroke);border-radius:18px;padding:20px;margin:28px 0}
+.panel h2{margin:0 0 8px}
+.list{margin:8px 0 0 18px}
+.donate{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
+.socials{display:flex;gap:16px;flex-wrap:wrap;margin-top:6px}
+.socials a{color:var(--accent);text-decoration:none}
+.footer{display:flex;justify-content:space-between;color:var(--muted);padding:24px 20px 40px}
+@media (max-width:640px){.footer{flex-direction:column;gap:8px}}
