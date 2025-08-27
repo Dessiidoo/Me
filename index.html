@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loretta Chapman — Builder & Founder</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="color-scheme" content="dark light">
+</head>
+<body>
+  <header class="wrap">
+    <nav class="topbar">
+      <div class="logo">LC<span>•</span>Works</div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#ventures">Ventures</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <h1>Hi, I’m <span class="grad">Loretta Chapman</span>.</h1>
+      <p class="tag">Founder • Full-stack tinkerer • Human-first AI</p>
+      <p class="sub">I build practical tools and businesses that help people get things done. Explore my work below—if you like it, buy me a coffee or support a feature.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn ghost" href="#support">Support the Work</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="wrap">
+    <section id="projects" class="grid">
+      <!-- Duplicate a card per project -->
+      <article class="card">
+        <h3>LeadPro</h3>
+        <p>Smart lead capture + automations for small businesses. Netlify hosted, custom domains, and secure forms.</p>
+        <div class="meta">
+          <span>Web</span><span>Netlify</span><span>Automation</span>
+        </div>
+        <div class="actions">
+          <a class="btn small" href="#" target="_blank">Live</a>
+          <a class="btn small ghost" href="#" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Heyi (AI Companion)</h3>
+        <p>Voice-first helper designed to assist everyone—including blind and low-vision users—through natural conversation.</p>
+        <div class="meta">
+          <span>Voice</span><span>Node</span><span>Accessibility</span>
+        </div>
+        <div class="actions">
+          <a class="btn small" href="#" target="_blank">Demo</a>
+          <a class="btn small ghost" href="#" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>GeoSync</h3>
+        <p>Concepts & research for syncable geospatial data flows. Partner & opportunity inquiries welcome.</p>
+        <div class="meta">
+          <span>R&D</span><span>Data</span>
+        </div>
+        <div class="actions">
+          <a class="btn small ghost" href="mailto:your@email">Contact</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="ventures" class="panel">
+      <h2>Ventures</h2>
+      <ul class="list">
+        <li><strong>LeadPro</strong> — marketing funnels for service businesses</li>
+        <li><strong>Heyi</strong> — AI companion, voice-first accessibility</li>
+        <li><strong>Consulting</strong> — rapid MVPs & automations</li>
+      </ul>
+    </section>
+
+    <section id="support" class="panel">
+      <h2>Support the Work</h2>
+      <p>Donations keep the lights on and features shipping. Thank you for backing indie building.</p>
+      <div class="donate">
+        <a class="btn primary" href="https://www.buymeacoffee.com/YOURNAME" target="_blank">Buy Me a Coffee</a>
+        <a class="btn ghost" href="https://square.link/u/YOUR_SQUARE_LINK" target="_blank">Square Donate</a>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p>Collabs, press, partnerships: <a href="mailto:you@example.com">you@example.com</a></p>
+      <div class="socials">
+        <a href="https://twitter.com/YOUR">@Twitter</a>
+        <a href="https://facebook.com/YOUR">Facebook</a>
+        <a href="https://www.linkedin.com/in/YOUR">LinkedIn</a>
+        <a href="https://github.com/YOUR">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="y"></span> Loretta Chapman</span>
+    <span>Built with love and stubbornness.</span>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
