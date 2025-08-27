@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Loretta Chapman — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Founder & builder. A curated portfolio of apps, experiments, and startups by Loretta Chapman." />
+</head>
+<body>
+  <!-- Header -->
+  <header class="wrap header">
+    <div class="brand">LC<span>•</span>Builds</div>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#support" class="pill">Support</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="wrap hero">
+    <div class="hero-copy">
+      <h1>Hi, I’m <span class="accent">Loretta Chapman</span>.</h1>
+      <p class="lead">Founder, designer, and relentless problem-solver. I build practical AI helpers and sleek web apps—fast.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn ghost" href="#support">Support the mission</a>
+      </div>
+      <div class="socials">
+        <!-- Replace hrefs with your profiles -->
+        <a aria-label="LinkedIn" href="https://linkedin.com" target="_blank" rel="noopener">
+          <!-- LinkedIn SVG -->
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.1c.5-.9 1.8-2.2 3.9-2.2 4.2 0 5 2.8 5 6.4V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9-2.4 0-2.8 1.8-2.8 3.8V24H8V8z"/></svg>
+        </a>
+        <a aria-label="Twitter/X" href="https://twitter.com" target="_blank" rel="noopener">
+          <!-- X SVG -->
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.244 2H21.5l-7.5 8.57L23.5 22h-6.57l-5.14-6.01L5.86 22H2.6l8.03-9.17L.5 2h6.75l4.65 5.4L18.24 2zm-2.31 18h2.26L8.16 4H5.9l10.03 16z"/></svg>
+        </a>
+        <a aria-label="GitHub" href="https://github.com" target="_blank" rel="noopener">
+          <!-- GitHub SVG -->
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.73.5.98 5.25.98 11.52c0 4.86 3.15 8.98 7.52 10.43.55.1.75-.24.75-.53v-1.86c-3.06.67-3.7-1.3-3.7-1.3-.5-1.26-1.22-1.6-1.22-1.6-.99-.68.07-.66.07-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.57 1.19 3.2.9.1-.72.39-1.19.7-1.47-2.44-.28-5.02-1.22-5.02-5.44 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.4.11-2.92 0 0 .93-.3 3.06 1.13.88-.25 1.81-.37 2.74-.38.93 0 1.86.13 2.74.38 2.13-1.43 3.06-1.13 3.06-1.13.6 1.52.22 2.64.11 2.92.7.77 1.13 1.75 1.13 2.95 0 4.24-2.59 5.15-5.05 5.42.4.34.76 1 .76 2.03v3.01c0 .29.2.64.76.53 4.37-1.45 7.52-5.57 7.52-10.43C23.02 5.25 18.27.5 12 .5z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="wrap section">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>LeadPro</h3>
+        <p>Modern landing infrastructure (Netlify + custom DNS + SSL) with auto-deploy previews and clean redirects.</p>
+        <div class="tags"><span>Netlify</span><span>DNS</span><span>Let’s Encrypt</span></div>
+      </article>
+
+      <article class="card">
+        <h3>Heyi — AI Companion</h3>
+        <p>Voice-first assistant concept for quick tasks and accessibility—designed for speed and clarity.</p>
+        <div class="tags"><span>PWA</span><span>Voice</span><span>Accessibility</span></div>
+      </article>
+
+      <article class="card">
+        <h3>GeoSync</h3>
+        <p>Explorations around data sync and geo-aware workflows; clean architecture and future-proof patterns.</p>
+        <div class="tags"><span>Architecture</span><span>APIs</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="wrap section about">
+    <h2>About</h2>
+    <p>I build useful things with a calm, minimalist aesthetic—then iterate quickly. I’m hands-on across design, front-end, and product flows. If you want help shipping something real, I’m your builder.</p>
+  </section>
+
+  <!-- Support -->
+  <section id="support" class="wrap section support">
+    <h2>Support the Work</h2>
+    <p>If my projects help you or inspire you, you can fuel the next release below. Thank you! 💛</p>
+
+    <div class="donations">
+      <!-- Square Tip (already connected) -->
+      <a class="btn primary" href="https://square.link/u/aVfZOtCP" target="_blank" rel="noopener">Tip via Square</a>
+
+      <!-- Buy Me a Coffee button (inline) — replace USERNAME -->
+      <a class="btn coffee" href="https://buymeacoffee.com/USERNAME" target="_blank" rel="noopener">
+        ☕ Buy me a coffee
+      </a>
+    </div>
+  </section>
+
+  <footer class="wrap footer">
+    <p>© <span id="year"></span> Loretta Chapman • Built with love & Netlify</p>
+  </footer>
+
+  <!-- Floating Buy Me a Coffee widget (optional). Replace USERNAME then keep or remove. -->
+  <script data-name="BMC-Widget" data-cfasync="false"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="USERNAME"
+    data-description="Support my work"
+    data-message="If you like what I'm building, you can fuel me here ☕"
+    data-color="#FFDD00"
+    data-position="Right"
+    data-x_margin="18" data-y_margin="18">
+  </script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
